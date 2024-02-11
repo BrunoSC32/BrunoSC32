@@ -33,7 +33,7 @@
 
 - `git branch`: es usado en Git para gestionar las ramas de tu proyecto. Aquí un resumen básico de su funcionalidad:
   - **Listar todas las ramas**: Al ejecutar `git branch` sin argumentos, te muestra una lista de todas las ramas locales en tu repositorio. La rama en la que te encuentras actualmente estará marcada con un asterisco (*).
-  - **Crear una nueva rama**: Para crear una nueva rama, usas `git branch <nombre_de_la_rama>`. Esto crea una nueva rama basada en tu posición actual (HEAD), pero no cambia a la nueva rama.
+  - **Crear una nueva rama**: Para crear una nueva rama, usas `git branch <no        mbre_de_la_rama>`. Esto crea una nueva rama basada en tu posición actual (HEAD), pero no cambia a la nueva rama.
   - **Eliminar una rama**: Para eliminar una rama local, utilizas `git branch -d <nombre_de_la_rama>`. Usa `-D` en lugar de `-d` para forzar la eliminación de una rama que contiene cambios no fusionados.
   - **Renombrar una rama**: Para renombrar la rama actual, puedes usar `git branch -m <nuevo_nombre>`. Para renombrar cualquier rama, usas `git branch -m <nombre_actual> <nuevo_nombre>`.
   - **Ver ramas remotas**: Para ver las ramas en tu repositorio remoto, puedes usar `git branch -r`.
@@ -42,4 +42,20 @@
 
 - `git merge`: Cuando ejecutas git merge <nombre_de_la_rama>, Git intentará fusionar automáticamente los cambios de <nombre_de_la_rama> en la rama en la que te encuentras actualmente. Si no hay conflictos, Git creará un nuevo "commit de merge" para sellar la fusión.
 
-  
+- `git stash`: Me permite guardar de forma temporal los cambios no compretidos, los que no han sido añadidos con git add y/o git commit.
+  - **Listar stashes**: git stash list muestra todos tus stashes guardados.
+
+  - **Aplicar un stash**:
+  `git stash pop` aplica el último stash y lo elimina de la lista.
+  `git stash apply` aplica el último stash sin eliminarlo de la lista.
+  - **Eliminar stashes**:
+  `git stash drop <stash@{n}>` elimina un stash específico.
+  `git stash clear` elimina todos los stashes.
+
+- `git remote add nombre url`:  Me permite agregar un nuevo repositorio.
+
+- `git fetch`: Se utiliza para actualizar tu repositorio local con los cambios desde un repositorio remoto, pero sin fusionar esos cambios en tus ramas de trabajo actuales
+
+- `git push`: Se utiliza en Git para subir tus cambios locales a un repositorio remoto.
+
+- `git pull`: En Git combina dos acciones en una: primero, actualiza tu repositorio local con los cambios desde un repositorio remoto (haciendo git fetch), y luego, fusiona esos cambios en tu rama de trabajo actual (haciendo git merge).
