@@ -33,7 +33,7 @@
 
 - `git branch`: es usado en Git para gestionar las ramas de tu proyecto. Aquí un resumen básico de su funcionalidad:
   - **Listar todas las ramas**: Al ejecutar `git branch` sin argumentos, te muestra una lista de todas las ramas locales en tu repositorio. La rama en la que te encuentras actualmente estará marcada con un asterisco (*).
-  - **Crear una nueva rama**: Para crear una nueva rama, usas `git branch <no        mbre_de_la_rama>`. Esto crea una nueva rama basada en tu posición actual (HEAD), pero no cambia a la nueva rama.
+  - **Crear una nueva rama**: Para crear una nueva rama, usas `git branch <nombre_de_la_rama>`. Esto crea una nueva rama basada en tu posición actual (HEAD), pero no cambia a la nueva rama.
   - **Eliminar una rama**: Para eliminar una rama local, utilizas `git branch -d <nombre_de_la_rama>`. Usa `-D` en lugar de `-d` para forzar la eliminación de una rama que contiene cambios no fusionados.
   - **Renombrar una rama**: Para renombrar la rama actual, puedes usar `git branch -m <nuevo_nombre>`. Para renombrar cualquier rama, usas `git branch -m <nombre_actual> <nuevo_nombre>`.
   - **Ver ramas remotas**: Para ver las ramas en tu repositorio remoto, puedes usar `git branch -r`.
