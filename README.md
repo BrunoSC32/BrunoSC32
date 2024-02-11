@@ -20,3 +20,26 @@
 - `git checkout nombreFichero`: Esto restaurará el archivo `nombreFichero` a su último estado comiteado, eliminando cualquier cambio que hayas hecho desde entonces.
 
 - `git reset`: Poner solo el comando `git reset` te mostrará los ficheros modificados comparándolo desde el último commit.
+
+- `git alias`: No es un comando como tal pero crear alias de comandos extensos nos facilita la tarea de escribirlos, por ejemplo para crear uno es de la siguiente forma: `git config --global alias.nombreAlias "log --graph --decorate --all --oneline"`
+
+- `git diff`: Se utiliza para mostrar las diferencias entre es estado del ultimo archivo y el ultimo commit.
+
+-  `git reset --hard`: Es una instrucción poderosa que se utiliza en Git para restablecer el estado de tu directorio de trabajo (working directory) y el área de preparación (staging area) al estado de un commit específico, descartando todos los cambios que se han hecho desde ese commit.
+
+-  `git reflog`: Muestra un historial de todas tus acciones recientes (como commits, resets, y rebase) y cómo han cambiado los HEADs de las ramas.
+
+- `git tag`: se utiliza en Git para marcar puntos específicos en la historia del repositorio como importantes. Comúnmente, se usa para marcar versiones de lanzamiento de esta forma `git tag v1.0`
+
+- `git branch`: es usado en Git para gestionar las ramas de tu proyecto. Aquí un resumen básico de su funcionalidad:
+  - **Listar todas las ramas**: Al ejecutar `git branch` sin argumentos, te muestra una lista de todas las ramas locales en tu repositorio. La rama en la que te encuentras actualmente estará marcada con un asterisco (*).
+  - **Crear una nueva rama**: Para crear una nueva rama, usas `git branch <nombre_de_la_rama>`. Esto crea una nueva rama basada en tu posición actual (HEAD), pero no cambia a la nueva rama.
+  - **Eliminar una rama**: Para eliminar una rama local, utilizas `git branch -d <nombre_de_la_rama>`. Usa `-D` en lugar de `-d` para forzar la eliminación de una rama que contiene cambios no fusionados.
+  - **Renombrar una rama**: Para renombrar la rama actual, puedes usar `git branch -m <nuevo_nombre>`. Para renombrar cualquier rama, usas `git branch -m <nombre_actual> <nuevo_nombre>`.
+  - **Ver ramas remotas**: Para ver las ramas en tu repositorio remoto, puedes usar `git branch -r`.
+
+- `git switch`: Sirve para cambiar entre la rama actual a otra rama `git switch otraRama`
+
+- `git merge`: Cuando ejecutas git merge <nombre_de_la_rama>, Git intentará fusionar automáticamente los cambios de <nombre_de_la_rama> en la rama en la que te encuentras actualmente. Si no hay conflictos, Git creará un nuevo "commit de merge" para sellar la fusión.
+
+  
