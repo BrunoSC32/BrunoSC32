@@ -58,4 +58,7 @@
 
 - `git push`: Se utiliza en Git para subir tus cambios locales a un repositorio remoto.
 
+- `git push -u origin main`: Sube los cambios de la rama local main al repositorio remoto origin.
+Establece la rama remota main como la rama de seguimiento predeterminada para la rama local main, simplificando futuros git push y git pull en esa rama.
+
 - `git pull`: En Git combina dos acciones en una: primero, actualiza tu repositorio local con los cambios desde un repositorio remoto (haciendo git fetch), y luego, fusiona esos cambios en tu rama de trabajo actual (haciendo git merge).
