@@ -12,3 +12,4 @@
 <p align="center"><img src="https://media.giphy.com/media/QaMcXSekUWx7aogAUr/giphy.gif" width="30" />&nbsp;Git profile Trophies</p><br>
 <img src="https://github-profile-trophy.vercel.app/?username=BrunoSC32&theme=juicyfresh&no-bg=true" />
 
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=BrunoSC32&theme=radical" alt="GitHub Streak" />
