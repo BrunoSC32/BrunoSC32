@@ -29,6 +29,7 @@
 
 <p align="center">
   <img src="https://skillicons.dev/icons?i=java,cpp,python,spring,nodejs,react,postgres,php" />
+    <br>
   <img src="https://skillicons.dev/icons?i=html,css,js,git,postman,figma" />
 </p>
 
