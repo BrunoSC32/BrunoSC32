@@ -1,6 +1,7 @@
 
 <h1 align="center">
-    <img src="https://readme-typing-svg.herokuapp.com/?font=Inter&size=48&center=true&vCenter=true&width=500&height=70&color=41B883FF&duration=4000&lines=Hi+There!+😉;+I'm+Bruno Salcedo!;" />
+<br>
+    <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=34&pause=1000&color=41B883&repeat=false&width=435&lines=Hi+There!+%F0%9F%98%89;I'm+Bruno+Salcedo!" alt="Typing SVG" /></a>
 </h1>
 
 ### A backend computer engineer passionate about building beautiful and functional projects.
