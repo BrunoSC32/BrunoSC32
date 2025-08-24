@@ -1,4 +1,3 @@
-
 <h1 align="center">
 <br>
     <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=34&pause=1000&color=41B883&repeat=false&width=435&lines=Hi+There!+%F0%9F%98%89;I'm+Bruno+Salcedo!" alt="Typing SVG" /></a>
@@ -6,8 +5,8 @@
 
 ### A backend computer engineer passionate about building beautiful and functional projects.
 
-
 - 🌱 I’m currently learning **[How to build a professional project ](https://blog.bytebytego.com/p/free-system-design-pdf-158-pages)**
+
 
 
 
@@ -21,9 +20,11 @@
   </a>
 </div>
 
+
+
+
 <hr>
 <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=30&pause=1000&color=41B883&repeat=false&width=435&lines=Languages+and+Tools+🛠️" alt="Typing SVG" /></a>
-
 
 <br>
 
@@ -54,3 +55,18 @@
   <br>
   <img src="https://github-readme-stats.vercel.app/api?username=BrunoSC32&theme=vue-dark&show_icons=true&hide_border=true&count_private=true" alt="BrunoSC32's Stats" />
 </div>
+
+
+
+
+## 🐍 My Contributions
+
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/BrunoSC32/BrunoSC32/output/github-contribution-grid-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/BrunoSC32/BrunoSC32/output/github-contribution-grid-snake.svg" />
+    <img alt="github-snake" src="https://raw.githubusercontent.com/BrunoSC32/BrunoSC32/output/github-contribution-grid-snake.svg" />
+  </picture>
+</div>
+
+<hr>
