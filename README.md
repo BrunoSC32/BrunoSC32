@@ -38,20 +38,9 @@
 <hr>
 <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=30&pause=1000&color=41B883&repeat=false&width=435&lines=My+statistics+on+GitHub" alt="Typing SVG" /></a>
 <div align="center">
-  <table>
-    <tbody>
-      <tr>
-        <td align="center">
-          <a href="https://git.io/streak-stats">
-            <img src="https://github-readme-streak-stats.herokuapp.com?user=BrunoSC32&theme=vue-dark" alt="GitHub Streak" />
-          </a>
-        </td>
-        <td align="center">
-          <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=BrunoSC32&theme=vue-dark&show_icons=true&hide_border=true&layout=compact" alt="BrunoSC32's Top Languages" />
-        </td>
-      </tr>
-    </tbody>
-  </table>
+  
   <br>
   <img src="https://github-readme-stats.vercel.app/api?username=BrunoSC32&theme=vue-dark&show_icons=true&hide_border=true&count_private=true" alt="BrunoSC32's Stats" />
+    <br>
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=BrunoSC32&theme=vue-dark&show_icons=true&hide_border=true&layout=compact" alt="BrunoSC32's Top Languages" />
 </div>
