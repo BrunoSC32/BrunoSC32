@@ -40,7 +40,15 @@
 <div align="center">
   
   <br>
-  <img src="https://github-readme-stats.vercel.app/api?username=BrunoSC32&theme=vue-dark&show_icons=true&hide_border=true&count_private=true" alt="BrunoSC32's Stats" />
+###
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/maurodesouza/maurodesouza/output/pacman-contribution-graph-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/maurodesouza/maurodesouza/output/pacman-contribution-graph.svg">
+  <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/maurodesouza/maurodesouza/output/pacman-contribution-graph.svg">
+</picture>
+
+###
     <br>
     <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=BrunoSC32&theme=vue-dark&show_icons=true&hide_border=true&layout=compact" alt="BrunoSC32's Top Languages" />
 </div>
