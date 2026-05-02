@@ -50,10 +50,6 @@
 
 <div align="center">
 
-  <img 
-    src="https://github-readme-stats.vercel.app/api?username=BrunoSC32&theme=vue-dark&show_icons=true&hide_border=true&count_private=true" 
-    alt="BrunoSC32's GitHub Stats" 
-  />
 
   <br />
   <br />
@@ -67,19 +63,3 @@
 
 ---
 
-## 🟩 Contribution Graph
-
-<picture>
-  <source 
-    media="(prefers-color-scheme: dark)" 
-    srcset="https://raw.githubusercontent.com/BrunoSC32/BrunoSC32/output/pacman-contribution-graph-dark.svg"
-  />
-  <source 
-    media="(prefers-color-scheme: light)" 
-    srcset="https://raw.githubusercontent.com/BrunoSC32/BrunoSC32/output/pacman-contribution-graph.svg"
-  />
-  <img 
-    alt="Pacman contribution graph" 
-    src="https://raw.githubusercontent.com/BrunoSC32/BrunoSC32/output/pacman-contribution-graph.svg"
-  />
-</picture>
